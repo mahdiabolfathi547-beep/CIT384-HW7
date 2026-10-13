@@ -1,0 +1,104 @@
+/* 
+Color Palette:
+Amber: #bd5b00
+Navy Blue: #172554
+Light Gray: #F3F4F6
+Dark Gray: #F3F4F6
+White: #FFFFFF
+*/
+
+
+.alegreya-uniquifier {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 600
+}
+
+
+#mahdi-photo {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+Body{
+  margin:0;
+  color: #374151;
+  background-color: #f3f4f6;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings use Montserrat */
+h1, h2, h3, h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+
+}
+
+.content-wrap{
+max-width: 950px; margin: 0 auto;
+
+}
+
+
+
+.intro{
+    padding: 60px 10%;
+    color: #FFFFFF;
+    background-color: #172554;
+    text-align: center;
+  
+}
+
+.intro h1{
+      color: #FFFFFF;
+}
+
+.intro h2{
+      color: #C4B5FD;
+}
+
+.work-experience {
+  padding: 50 px 10%;
+  background-color: #FFFFFF;
+
+}
+
+.education {
+  padding: 50px 10%;
+  background-color: #f3f4f6
+}
+
+.edcucation h2 {
+  color: #172554
+}
+
+.volunteer-experience h2 {
+    color: #6C4AB6;
+}
+
+footer {
+padding: 40px 10%;
+color: #FFFFFF;
+background-color: #bd5b00;
+text-align: center;
+}
+/* change color for text to amber*/
+
+footer h2 {
+  color: #FFFFFF;
+
+}
+
+.contact-links a{
+    margin: 0 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    color: #C4B5FD;
+    text-decoration: underline;
+}
