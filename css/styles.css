@@ -7,6 +7,13 @@ Dark Gray: #F3F4F6
 White: #FFFFFF
 */
 
+/* border box fix */
+html {
+  boxing-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .alegreya-uniquifier {
   font-family: "Alegreya", serif;
@@ -22,10 +29,7 @@ White: #FFFFFF
 }
 
 .profile-img {
-  width: 300px;
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
 }
 
 
@@ -38,6 +42,18 @@ Body{
   line-height: 1.6;
 }
 
+.column-narrow {
+  width: 30%;
+  float: left; 
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70;
+  float: left;
+  min-height: 225px;
+}
 /* Headings use Montserrat */
 h1, h2, h3, h4{
   font-family: "Montserrat", sans-serif;
